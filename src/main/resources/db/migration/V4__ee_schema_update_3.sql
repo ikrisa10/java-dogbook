@@ -1,0 +1,2 @@
+ALTER TABLE dogs
+ADD COLUMN breed_id INTEGER NOT NULL REFERENCES breeds(id);

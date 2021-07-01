@@ -1,0 +1,5 @@
+CREATE TABLE breeds (
+  id SERIAL PRIMARY KEY,
+  breed VARCHAR(255) NOT NULL,
+  UNIQUE (breed)
+);
